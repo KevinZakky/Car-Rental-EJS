@@ -56,6 +56,6 @@ app.use(carRoutes);
 app.use(userRoutes);
 app.use(viewRoutes);
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Server jalan di http://localhost:${port}`);
 });
